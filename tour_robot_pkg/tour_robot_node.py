@@ -59,13 +59,7 @@ class TourRobot(Node):
         self.next_state = self.state1 # track next state
 
     def update_state_machine(self):
-        """Task 1 - State machine that generates robot behavior to 
-                        - undock, 
-                        - approach user, 
-                        - escort them to their destination, 
-                        - and return to the docking station.
-        ----------
-        Returns: None (updates self.curr_state and self.next_state)
+        """Add Comments
         -------
         """
         if(self.curr_state == self.state1):
